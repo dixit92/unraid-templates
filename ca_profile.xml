@@ -1,0 +1,13 @@
+<CommunityApplications>
+  <Profile>
+Unraid templates for [MangaPixer](https://github.com/dixit92/mangapixer), a self-hosted, folder-native comic and manga server with a fast web reader.
+
+- **Install:** search for MangaPixer in Apps, or see the [Unraid install guide](https://github.com/dixit92/mangapixer/blob/main/docs/install-unraid.md).
+- **Documentation:** [docs](https://github.com/dixit92/mangapixer/tree/main/docs), including [How MangaPixer works](https://github.com/dixit92/mangapixer/blob/main/docs/how-it-works.md).
+- **Support:** open an issue on the [MangaPixer repository](https://github.com/dixit92/mangapixer/issues).
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/dixit92/unraid-templates/main/icon.png</Icon>
+  <WebPage>https://github.com/dixit92/mangapixer</WebPage>
+  <DonateLink>https://ko-fi.com/smitdixit</DonateLink>
+  <DonateText>Support MangaPixer on Ko-fi</DonateText>
+</CommunityApplications>
