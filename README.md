@@ -24,7 +24,7 @@ Then **Docker** > **Add Container** and pick **mangapixer** from the Template li
 
 ## Support
 
-Please open issues on the [MangaPixer repository](https://github.com/dixit92/mangapixer/issues).
+Ask in the [Unraid forum support thread](https://forums.unraid.net/topic/200672-support-dixit92-mangapixer-folder-native-comic-manga-server/), or open an issue on the [MangaPixer repository](https://github.com/dixit92/mangapixer/issues).
 
 ## Maintaining this repository
 

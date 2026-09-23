@@ -9,7 +9,7 @@
   <Icon>https://raw.githubusercontent.com/dixit92/unraid-templates/main/icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Overview>MangaPixer is a self-hosted comic and manga server with a fast web reader for desktop, tablet and phone. It is folder-native: point it at your existing folders of .cbz and .cbr archives and it shows them exactly as they are organized on disk - no renaming, no metadata to curate, and your media is only ever read. Features per-user reading progress and read marks, continue reading and new-chapter rows, single, double-page and vertical (webtoon) reading with right-to-left support, favorites, search, private libraries, and server-side image resizing that keeps line art and screentones clean on every screen. Accounts are created by an admin; there are no default credentials, no telemetry, and no calls to the internet unless you turn on the optional update check.</Overview>
-  <Support>https://github.com/dixit92/mangapixer/issues</Support>
+  <Support>https://forums.unraid.net/topic/200672-support-dixit92-mangapixer-folder-native-comic-manga-server/</Support>
   <Project>https://github.com/dixit92/mangapixer</Project>
   <TemplateURL>https://raw.githubusercontent.com/dixit92/unraid-templates/main/templates/mangapixer.xml</TemplateURL>
   <ReadMe>https://raw.githubusercontent.com/dixit92/mangapixer/main/docs/install-unraid.md</ReadMe>
