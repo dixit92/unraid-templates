@@ -18,6 +18,8 @@
   <Requires>Your comics or manga as .cbz / .zip or non-solid .cbr / .rar archives in a share. Solid archives (including every .cb7 / .7z) are listed but cannot be read yet.</Requires>
   <License>MIT</License>
   <Changes>
+### 2026-10-09
+- Changes: artists' other names from MangaUpdates, only when an admin asks (MangaPixer 1.38.0); the Overview is unchanged - it names the providers, not each kind of request.
 ### 2026-10-07
 - Overview: an API token can also be allowed to ask for a library scan (MangaPixer 1.36.0); nothing new leaves your server.
 ### 2026-10-03
