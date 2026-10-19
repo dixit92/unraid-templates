@@ -12,7 +12,7 @@
 
 Reading: per-user reading progress and read marks, continue reading and new-chapter rows, single, double-page and vertical (webtoon) reading with right-to-left support, favorites, search, private libraries, and server-side image resizing that keeps line art and screentones clean on every screen.
 
-Series information (optional): descriptions, authors, covers, volumes and which volumes or chapters you are missing come from ComicInfo.xml inside your archives and, only if an admin turns it on, from MangaUpdates, MangaDex, AniList, the Grand Comics Database (comics and graphic novels) and Wikipedia (volume lists).
+Series information (optional): descriptions, authors, covers, volumes and which volumes or chapters you are missing come from ComicInfo.xml inside your archives and, only if an admin turns it on, from MangaUpdates, MangaDex, AniList, the Grand Comics Database (comics and graphic novels) and Wikipedia (volume lists). An Info panel shows each folder's creators, magazine, publisher, year, genres and type as clickable tags that open every work carrying them.
 
 Tracker sync (optional): once an admin allows it, each user can connect their own MyAnimeList or MangaUpdates account and have their reading progress sent there while they read. A Tracking page shows every tracked series side by side.
 
@@ -28,6 +28,8 @@ Privacy: accounts are created by an admin; there are no default credentials and 
   <Requires>Your comics or manga as .cbz / .zip or non-solid .cbr / .rar archives in a share. Solid archives (including every .cb7 / .7z) are listed but cannot be read yet.</Requires>
   <License>MIT</License>
   <Changes>
+### 2026-10-19
+- MangaPixer 1.45.0: a new Info panel with clickable tags (creators, magazines, publishers, year, genres) and an admin-only search for an artist on MangaUpdates by a folder's name; with Automatic matching on, new chapters are noticed sooner (MangaDex is asked for the latest chapter of linked series by their record ids, and MangaUpdates' public list of the day's releases is read). The web-lookups consent text is now version 7: an admin accepts it again before fetching resumes. Overview: the tags.
 ### 2026-10-15
 - Overview: split into short paragraphs; tracker sync with your own MyAnimeList or MangaUpdates account (MangaPixer 1.43.0; off until an admin allows it, and each user connects their own account).
 ### 2026-10-12
@@ -45,7 +47,7 @@ Privacy: accounts are created by an admin; there are no default credentials and 
 ### 2026-09-23
 - Listed in Community Applications. Release notes: https://github.com/dixit92/mangapixer/releases
   </Changes>
-  <Date>2026-10-15</Date>
+  <Date>2026-10-19</Date>
   <Screenshot>https://raw.githubusercontent.com/dixit92/mangapixer/main/assets/screenshots/home-desktop.jpg</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/dixit92/mangapixer/main/assets/screenshots/reader-desktop-double-page.jpg</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/dixit92/mangapixer/main/assets/screenshots/docs-library-folder.png</Screenshot>
