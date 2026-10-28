@@ -28,6 +28,8 @@ Privacy: accounts are created by an admin; there are no default credentials and 
   <Requires>Your comics or manga as .cbz / .zip or non-solid .cbr / .rar archives in a share. Solid archives (including every .cb7 / .7z) are listed but cannot be read yet.</Requires>
   <License>MIT</License>
   <Changes>
+### 2026-10-28
+- MangaPixer 1.49.0: search finds every word in any order, ignores accents and punctuation, forgives a typo, and lists names before paths; quick results appear as you type (series, folders, archives, creators, tags); a Tags row from MangaUpdates categories and ComicInfo tags, with tags you can combine or leave out; the letter jump bar stays under filters and gets bracket letters for doujin folders and date chips, plus a scrub strip on phones; database backups are compressed; lower memory use. The image is now also on Docker Hub (dixit92/mangapixer), so Community Applications shows its last update. Nothing new leaves your server.
 ### 2026-10-26
 - MangaPixer 1.48.0: favorites show your reading state (Read / Reading, also for a whole folder) on the Favorites page and the home row, and a folder can be starred from inside it; in vertical (webtoon) reading the left and right edges run the full height of the screen; card size and list columns are kept per device; on a phone the folder bar's buttons are centred. Private libraries stay hidden under Incognito in more places (the jump bar, a library's Info panel, the Tracking page), and new automatic tests check who may see what on every page. Nothing new leaves your server.
 ### 2026-10-19
