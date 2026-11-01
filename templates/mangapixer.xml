@@ -28,6 +28,8 @@ Privacy: accounts are created by an admin; there are no default credentials and 
   <Requires>Your comics or manga as .cbz / .zip or non-solid .cbr / .rar archives in a share. Solid archives (including every .cb7 / .7z) are listed but cannot be read yet.</Requires>
   <License>MIT</License>
   <Changes>
+### 2026-11-01
+- MangaPixer 1.50.1: on a phone the library's top bar fits again - View, Filter and Select show only their icons, the library or folder name has its own row, and no icon is drawn across its button's border. Nothing else changes.
 ### 2026-10-29
 - MangaPixer 1.50.0: the Favorites page gets the library view's card and list views, sizes, sorts and filters; search finds words split between a file and its folders (berserk 12 finds Berserk/Vol 12), leaves out -words and matches 6 to 006; files found outside their folder show the series folder on a second line; quick results on the desktop Search page; scrolling up after a date jump; a switch for backup compression; archives no longer stay pending after a large scan. One small database migration.
 ### 2026-10-28
