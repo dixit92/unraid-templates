@@ -28,6 +28,8 @@ Privacy: accounts are created by an admin; there are no default credentials and 
   <Requires>Your comics or manga as .cbz / .zip or non-solid .cbr / .rar archives in a share. Solid archives (including every .cb7 / .7z) are listed but cannot be read yet.</Requires>
   <License>MIT</License>
   <Changes>
+### 2026-11-09
+- MangaPixer 1.52.0: rate any series or archive from half a star to five stars (private to your account; sort and filter by your rating, search rating:4); on phones the Back gesture closes an open menu, sheet or dialog and stays on the page; easier tapping on touch screens; a page that sometimes failed to load when asked for twice at once is fixed. One database migration (runs on its own at start-up). Ratings never leave your server; nothing new leaves your server.
 ### 2026-11-07
 - MangaPixer 1.51.0: Favorites sort by Recently read, get an A-Z jump rail and can be grouped by library; a short number finds v12 / ch12 / ep3; automatic matching knows authors by their stored pen names; on phones and tablets every control is easier to tap, phones held sideways keep the sidebar narrow, and the select bar is one row; a rare crash when a cached page vanished is fixed. No database migration. Nothing new leaves your server.
 ### 2026-11-01
