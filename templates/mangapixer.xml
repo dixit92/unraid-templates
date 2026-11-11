@@ -10,11 +10,11 @@
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Overview>MangaPixer is a self-hosted comic and manga server with a fast web reader for desktop, tablet and phone. It is folder-native: point it at your existing folders of .cbz and .cbr archives and it shows them exactly as they are organized on disk - no renaming, no metadata to curate, and your media is only ever read.
 
-Reading: per-user reading progress and read marks, continue reading and new-chapter rows, single, double-page and vertical (webtoon) reading with right-to-left support, favorites, search, private libraries, and server-side image resizing that keeps line art and screentones clean on every screen.
+Reading: per-user reading progress and read marks, continue reading and new-chapter rows, single, double-page and vertical (webtoon) reading with right-to-left support, favorites, ratings (shareable as a server average once an admin allows it), recommendations worked out on your server, search, private libraries, and server-side image resizing that keeps line art and screentones clean on every screen.
 
 Series information (optional): descriptions, authors, covers, volumes and which volumes or chapters you are missing come from ComicInfo.xml inside your archives and, only if an admin turns it on, from MangaUpdates, MangaDex, AniList, the Grand Comics Database (comics and graphic novels) and Wikipedia (volume lists). An Info panel shows each folder's creators, magazine, publisher, year, genres and type as clickable tags that open every work carrying them.
 
-Tracker sync (optional): once an admin allows it, each user can connect their own MyAnimeList or MangaUpdates account and have their reading progress sent there while they read. A Tracking page shows every tracked series side by side.
+Tracker sync (optional): once an admin allows it, each user can connect their own MyAnimeList or MangaUpdates account and have their reading progress sent there while they read. Each user can also keep their own score there in step with their rating here (off by default). A Tracking page shows every tracked series side by side.
 
 Other apps: an admin can create API tokens so another app on your network (such as MangaList) can read the series information and, if allowed, ask for a library scan after it adds files.
 
@@ -28,6 +28,8 @@ Privacy: accounts are created by an admin; there are no default credentials and 
   <Requires>Your comics or manga as .cbz / .zip or non-solid .cbr / .rar archives in a share. Solid archives (including every .cb7 / .7z) are listed but cannot be read yet.</Requires>
   <License>MIT</License>
   <Changes>
+### 2026-11-11
+- MangaPixer 1.53.0: shared ratings (an average across users, off until an admin turns it on), Recommended for you and More like this, your own score on MyAnimeList / MangaUpdates, What's new after an update, calmer and higher-contrast screens, and fixes (Back after a menu, loading and error states). One database migration (runs on its own at start-up). Tracker sync asks for consent again. Your score is sent only if you turn that on; nothing else new leaves your server.
 ### 2026-11-09
 - MangaPixer 1.52.0: rate any series or archive from half a star to five stars (private to your account; sort and filter by your rating, search rating:4); on phones the Back gesture closes an open menu, sheet or dialog and stays on the page; easier tapping on touch screens; a page that sometimes failed to load when asked for twice at once is fixed. One database migration (runs on its own at start-up). Ratings never leave your server; nothing new leaves your server.
 ### 2026-11-07
